@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Instructors from "@/components/Instructors";
 import Testimonel from "@/components/Testimonel";
@@ -16,6 +17,7 @@ const App = ({}: AppProps) => {
       <Testimonel />
       <UpcomingWebinars />
       <Instructors />
+      <Footer />
     </main>
   );
 };
